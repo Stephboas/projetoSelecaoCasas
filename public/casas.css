@@ -1,0 +1,94 @@
+/* reset CSS */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1A4E95; /* Azul Corvinal */
+    background-image: url('/images/ravenclaw.jpg'); /* Caminho relativo a partir da raiz do servidor */
+    background-size: cover;
+    color: #EEE; /* Branco */
+    text-align: center;
+
+}
+
+.container {
+    max-width: 800px;
+    background-color: #22222278; /* Preto suave para destacar o conteúdo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #5DA9E9; /* Azul mais claro */
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #FFD700; /* Dourado Corvinal */
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para links */
+a {
+    color: #5DA9E9; /* Azul mais claro */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #FFD700; /* Dourado Corvinal ao passar o mouse */
+}
+
+
+/* Estilo para telas menores (responsivo) */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+}

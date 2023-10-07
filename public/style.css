@@ -1,0 +1,162 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', Arial, serif;
+    background-color: #305b60; /* Cor de fundo do corpo do site */
+    color: #f0f0f0; /* Cor do texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#nav-container {
+    height: 50px; /* Altura da barra de navegação */
+    width: 100%; /* Largura da barra de navegação */
+    background-color: #1e363f; /* Cor de fundo da barra de navegação */
+}
+
+#pergunta-container, .opcoes-resposta, #pergunta-texto, .proximo-btn {
+    font-family: 'Cinzel', Arial, serif;
+}
+
+#chapeu-seletor-container {
+    width: 350px;
+    height: 350px;
+    position: absolute; /* Alterado para posição absoluta */
+    left: -10px; /* Posiciona o contêiner horizontalmente no centro */
+    top: -180px; /* Posiciona o contêiner verticalmente no centro */
+    transform: translate(-50%, -50%); /* Corrige o centro do contêiner */
+    z-index: 1; /* Coloca o contêiner sobre outros elementos na página */
+}
+
+#chapeu-seletor {
+    width: 950px; /* Define a largura em pixels */
+    height: 650px; /* Define a altura em pixels */
+    object-fit: cover;
+    pointer-events: none; /* Não responde a eventos do mouse */
+    z-index: 1; /* Coloca o vídeo atrás de outros elementos */
+}
+
+.balao-fala {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    display: none;
+}
+
+
+#pergunta-container {
+    background-color: #1e363f; /* Cor de fundo do container das perguntas */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 200px 40px 20px 40px; /* Adicione padding-top de 100px para criar espaço acima do texto das perguntas */
+    text-align: center;
+    max-width: 800px; /* Largura máxima ajustada para 800px */
+    width: 100%;
+    margin-top: 30%;
+    margin-bottom: 20px;
+    position: relative; /* Adicione uma posição relativa para o container das perguntas */
+    z-index: 2; /* Coloque o container das perguntas acima do chapéu seletor */
+}
+
+#pergunta-texto {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.opcao-btn {
+    background-color: #699fa2; /* Cor de fundo dos botões de opção */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+
+.opcao-btn.selected {
+    background-color: #172123; /* Cor de fundo dos botões de opção quando selecionados */
+}
+
+.opcao-btn:hover {
+    background-color: #0c0d0f; /* Cor de fundo dos botões de opção ao passar o mouse */
+}
+
+#proximo-btn {
+    background-color: #699fa2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+#proximo-btn:hover {
+    background-color: #0e4861;
+}
+
+#footer {
+    background-color: #1e363f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px; /* Altura do footer */
+}
+
+/* Estilos para telas grandes (até 1200px) */
+@media (max-width: 1200px) {
+    #pergunta-container {
+        padding: 150px 20px 20px 20px;
+    }
+
+    .opcao-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Estilos para telas médias */
+@media (max-width: 768px) {
+    #pergunta-container {
+        padding: 150px 20px 20px 20px;
+    }
+
+    .opcao-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Estilos para telas pequenas (dispositivos móveis) */
+@media (max-width: 480px) {
+    #pergunta-container {
+        padding: 100px 10px 10px 10px;
+    }
+
+    .opcao-btn {
+        font-size: 12px;
+        padding: 6px 12px;
+        margin-bottom: 8px;
+    }
+}

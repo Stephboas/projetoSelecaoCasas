@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Personalidade de Hogwarts</title>
+    <link rel="stylesheet" href="./style.css"> <!-- Caminho relativo a partir da raiz -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="nav-container">
+        <!-- Conteúdo da barra de navegação pode ser adicionado aqui -->
+    </div>
+    
+    <div id="pergunta-container">
+        <div id="chapeu-seletor-container">
+            <video id="chapeu-seletor" autoplay muted loop>
+                <source src="/images/hat-selector.webm" type="video/webm">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <div class="balao-fala" id></div>
+        </div>
+        <div id="pergunta-texto"></div>
+        <div id="opcoes-resposta" class="opcoes-resposta"></div>
+        <button id="proximo-btn" class="proximo-btn">Próxima</button>
+    </div>
+
+    <div id="footer">
+        <p>Rodapé da Página</p>
+    </div>
+
+    <script type="module" src="/src/main.mjs"></script>
+    <script type="module" src="/src/quiz.mjs"></script>
+    <script type="module" src="/src/utils.mjs"></script>
+
+</body>
+</html>

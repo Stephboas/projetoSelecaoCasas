@@ -1,0 +1,20 @@
+{
+  "name": "selecaocasas",
+  "version": "1.0.0",
+  "description": "Teste de Selecao Casas de Hogwarts",
+  "main": "project-structure.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "build": "webpack"
+  },
+  "author": "Steph Boas",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}

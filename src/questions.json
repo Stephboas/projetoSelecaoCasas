@@ -1,0 +1,1177 @@
+[
+    {
+        "question": "Qual é a sua visão sobre a existência de uma força superior ou divindade no universo?",
+        "options": [
+            {
+                "text": "Acredito firmemente na existência de um ser supremo que guia todas as coisas",
+                "points": {
+                    "corvinal": 3,
+                    "sonserina": 2,
+                    "lufalufa": 1,
+                    "grifinoria": 1
+                }
+            },
+            {
+                "text": "Tenho dúvidas, prefiro pensar que o universo é resultado do acaso e da natureza",
+                "points": {
+                    "sonserina": 3,
+                    "grifinoria": 2,
+                    "corvinal": 1
+                }
+            },
+            {
+                "text": "Acredito em uma energia cósmica, mas não a defino em termos religiosos específicos",
+                "points": {
+                    "corvinal": 2,
+                    "lufalufa": 1
+                }
+            },
+            {
+                "text": "Não acredito em qualquer forma de divindade ou força superior",
+                "points": {
+                    "sonserina": 2,
+                    "grifinoria": 1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Como você enxerga o propósito da vida?",
+        "options": [
+            {
+                "text": "Acredito que cada ser tem um propósito específico e busca cumprir seu destino",
+                "points": {
+                    "lufalufa": 3,
+                    "grifinoria": 2
+                }
+            },
+            {
+                "text": "Penso que o propósito é algo que cada pessoa cria por si mesma ao longo da vida",
+                "points": {
+                    "corvinal": 3,
+                    "lufalufa": 2
+                }
+            },
+            {
+                "text": "Vejo a vida como uma jornada de autodescoberta e crescimento pessoal",
+                "points": {
+                    "grifinoria": 3,
+                    "lufalufa": 1
+                }
+            },
+            {
+                "text": "Considero que a vida não tem um propósito intrínseco; somos livres para criar nosso significado",
+                "points": {
+                    "sonserina": 3,
+                    "grifinoria": 1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Como você encara a questão do bem e do mal?",
+        "options": [
+            {
+                "text": "Acredito em um sistema moral absoluto, onde algumas ações são intrinsecamente boas ou más",
+                "points": {
+                    "grifinoria": 3
+                }
+            },
+            {
+                "text": "Penso que o conceito de bem e mal é relativo e varia de acordo com a cultura e a perspectiva",
+                "points": {
+                    "corvinal": 3
+                }
+            },
+            {
+                "text": "Valorizo a empatia e o altruísmo como guias para distinguir o bem do mal",
+                "points": {
+                    "lufalufa": 3,
+                    "grifinoria": 1
+                }
+            },
+            {
+                "text": "Não acredito em conceitos absolutos de bem ou mal; tudo é uma questão de perspectiva e contexto",
+                "points": {
+                    "sonserina": 3,
+                    "corvinal": 1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Qual é a sua opinião sobre o papel das religiões na sociedade?",
+        "options": [
+            {
+                "text": "Acredito que as religiões têm um papel crucial na formação moral e espiritual das pessoas",
+                "points": {
+                    "lufalufa": 2,
+                    "grifinoria": 1
+                }
+            },
+            {
+                "text": "Considero as religiões como parte importante da cultura, mas não vejo a necessidade de seguir uma fé específica",
+                "points": {
+                    "corvinal": 3,
+                    "sonserina": 2
+                }
+            },
+            {
+                "text": "Valorizo a diversidade religiosa e acredito que cada pessoa deve encontrar sua própria jornada espiritual",
+                "points": {
+                    "corvinal": 2,
+                    "lufalufa": 1
+                }
+            },
+            {
+                "text": "Vejo as religiões como sistemas de controle social e prefiro não me envolver com elas",
+                "points": {
+                    "sonserina": 2,
+                    "grifinoria": 1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Como você interpreta a relação entre ciência e fé?",
+        "options": [
+            {
+                "text": "Acredito que ciência e fé são complementares, cada uma abordando diferentes aspectos da existência humana",
+                "points": {
+                    "corvinal": 3,
+                    "sonserina": 1
+                }
+            },
+            {
+                "text": "Vejo a ciência como a explicação principal para o mundo, mas a fé pode oferecer conforto e esperança às pessoas",
+                "points": {
+                    "grifinoria": 3,
+                    "sonserina": 1
+                }
+            },
+            {
+                "text": "Considero que ciência e fé são incompatíveis; prefiro confiar apenas na razão e na evidência",
+                "points": {
+                    "sonserina": 3,
+                    "grifinoria": 1
+                }
+            },
+            {
+                "text": "Penso que fé é uma questão pessoal, enquanto a ciência é objetiva e universal, não precisando se misturar",
+                "points": {
+                    "lufalufa": 3
+                }
+            }
+        ]
+    },
+        {
+          "question": "Qual é a sua visão sobre o conhecimento e a verdade?",
+          "options": [
+            {
+              "text": "Acredito que o conhecimento verdadeiro é alcançado através da razão e da lógica",
+              "points": {
+                "corvinal": 3,
+                "sonserina": 1
+              }
+            },
+            {
+              "text": "Penso que a verdade é subjetiva e varia de acordo com as perspectivas individuais",
+              "points": {
+                "sonserina": 3,
+                "corvinal": 1
+              }
+            },
+            {
+              "text": "Valorizo a experiência e as emoções como caminhos para a verdade pessoal",
+              "points": {
+                "lufalufa": 3,
+                "grifinoria": 1
+              }
+            },
+            {
+              "text": "Considero que o conhecimento é uma busca constante, mas é impossível alcançar uma verdade absoluta",
+              "points": {
+                "grifinoria": 3,
+                "lufalufa": 1
+              }
+            }
+          ]
+        },
+        {
+          "question": "Como você enxerga os desafios e as adversidades na vida?",
+          "options": [
+            {
+              "text": "Vejo os desafios como oportunidades para aprender e crescer, enfrentando-os com coragem e determinação",
+              "points": {
+                "grifinoria": 3,
+                "sonserina": 1
+              }
+            },
+            {
+              "text": "Acredito que as adversidades são parte natural da vida e devem ser aceitas com serenidade e resignação",
+              "points": {
+                "lufalufa": 3,
+                "grifinoria": 1
+              }
+            },
+            {
+              "text": "Prefiro evitar conflitos e desafios sempre que possível, buscando harmonia e equilíbrio",
+              "points": {
+                "corvinal": 3,
+                "lufalufa": 1
+              }
+            },
+            {
+              "text": "Encaro os desafios como testes que devem ser superados com astúcia e estratégia",
+              "points": {
+                "sonserina": 3,
+                "corvinal": 1
+              }
+            }
+          ]
+        },
+        {
+          "question": "Qual é a sua opinião sobre o livre-arbítrio?",
+          "options": [
+            {
+              "text": "Acredito no livre-arbítrio como a capacidade fundamental que nos torna humanos, dando significado às nossas escolhas",
+              "points": {
+                "grifinoria": 3,
+                "sonserina": 1
+              }
+            },
+            {
+              "text": "Penso que o livre-arbítrio é uma ilusão, pois somos produtos de circunstâncias e influências externas",
+              "points": {
+                "sonserina": 3,
+                "grifinoria": 1
+              }
+            },
+            {
+              "text": "Valorizo o livre-arbítrio, mas acredito que devemos estar em harmonia com o destino para encontrar verdadeira felicidade",
+              "points": {
+                "corvinal": 3,
+                "lufalufa": 1
+              }
+            },
+            {
+              "text": "Considero que o livre-arbítrio é uma responsabilidade, e cada escolha molda nosso destino pessoal",
+              "points": {
+                "lufalufa": 3,
+                "corvinal": 1
+              }
+            }
+          ]
+        },
+        {
+          "question": "Como você interpreta a importância do conhecimento e da sabedoria na vida cotidiana?",
+          "options": [
+            {
+              "text": "Valorizo profundamente o conhecimento e a busca pela sabedoria, vendo-os como ferramentas para resolver problemas e melhorar o mundo",
+              "points": {
+                "corvinal": 3,
+                "sonserina": 2
+              }
+            },
+            {
+              "text": "Acredito que o conhecimento é poder, mas é importante usá-lo com sabedoria para não prejudicar os outros",
+              "points": {
+                "grifinoria": 3,
+                "corvinal": 2
+              }
+            },
+            {
+              "text": "Vejo o conhecimento como uma fonte de inspiração e entendimento do mundo, algo a ser compartilhado com os outros",
+              "points": {
+                "lufalufa": 3,
+                "grifinoria": 1
+              }
+            },
+            {
+              "text": "Considero que o conhecimento é útil apenas quando aplicado; a teoria sem a prática não tem valor real",
+              "points": {
+                "sonserina": 3,
+                "corvinal": 1
+              }
+            }
+          ]
+        },
+        {
+          "question": "Como você encara o conceito de virtude e moralidade?",
+          "options": [
+            {
+              "text": "Acredito em padrões morais objetivos e virtudes que são intrinsecamente boas, independentemente das circunstâncias",
+              "points": {
+                "grifinoria": 3,
+                "lufalufa": 2
+              }
+            },
+            {
+              "text": "Penso que a moralidade é relativa e depende do contexto cultural e social em que vivemos",
+              "points": {
+                "sonserina": 3,
+                "grifinoria": 2
+              }
+            },
+            {
+              "text": "Valorizo a empatia, a compaixão e o altruísmo como virtudes essenciais para uma sociedade justa",
+              "points": {
+                "lufalufa": 3,
+                "grifinoria": 1
+              }
+            },
+            {
+              "text": "Considero que a virtude é um meio-termo entre extremos, buscando o equilíbrio em todas as áreas da vida",
+              "points": {
+                "corvinal": 3,
+                "sonserina": 1
+              }
+            }
+          ]
+        },
+
+            {
+              "question": "Qual é a sua interpretação sobre a relação entre fé e razão?",
+              "options": [
+                {
+                  "text": "Acredito que a fé é uma convicção inabalável e a razão deve estar submissa a ela, guiando todas as decisões",
+                  "points": {
+                    "sonserina": 3
+                  }
+                },
+                {
+                  "text": "Penso que fé e razão podem coexistir harmoniosamente, complementando-se mutuamente para uma compreensão mais profunda da vida",
+                  "points": {
+                    "corvinal": 3,
+                    "sonserina": 2,
+                    "grifinoria": 1,
+                    "lufalufa": 1
+                  }
+                },
+                {
+                  "text": "Valorizo a razão como guia principal, mas a fé pode fornecer conforto e esperança em momentos de incerteza",
+                  "points": {
+                    "grifinoria": 3,
+                    "lufalufa": 1
+                  }
+                },
+                {
+                  "text": "Acredito que a razão deve prevalecer sobre a fé, pois é através dela que alcançamos o verdadeiro entendimento do mundo",
+                  "points": {
+                    "lufalufa": 3,
+                    "grifinoria": 1
+                  }
+                }
+              ]
+            },
+            {
+              "question": "Como você interpreta o livre-arbítrio em relação à predestinação?",
+              "options": [
+                {
+                  "text": "Acredito na predestinação divina, onde o destino de cada pessoa é determinado desde o início",
+                  "points": {
+                    "sonserina": 3,
+                    "corvinal": 2
+                  }
+                },
+                {
+                  "text": "Penso que temos livre-arbítrio para tomar decisões, mas Deus já conhece todas as escolhas que faremos",
+                  "points": {
+                    "corvinal": 3,
+                    "sonserina": 2
+                  }
+                },
+                {
+                  "text": "Valorizo o livre-arbítrio como uma dádiva divina que nos permite fazer escolhas morais significativas",
+                  "points": {
+                    "lufalufa": 3,
+                    "grifinoria": 2
+                  }
+                },
+                {
+                  "text": "Acredito no livre-arbítrio completo, onde somos responsáveis por nossas escolhas, sem predestinação",
+                  "points": {
+                    "grifinoria": 3,
+                    "lufalufa": 2
+                  }
+                }
+              ]
+            },
+            {
+              "question": "Como você encara o conceito de pecado e redenção?",
+              "options": [
+                {
+                  "text": "Acredito que o pecado é inerente à natureza humana, e a redenção vem através da graça divina e arrependimento sincero",
+                  "points": {
+                    "lufalufa": 3,
+                    "grifinoria": 1
+                  }
+                },
+                {
+                  "text": "Penso que o pecado é resultado de escolhas pessoais, e a redenção é alcançada por meio do esforço próprio e retidão moral",
+                  "points": {
+                    "grifinoria": 3,
+                    "corvinal": 2,
+                    "lufalufa": 1
+                  }
+                },
+                {
+                  "text": "Valorizo a ideia de que o arrependimento genuíno e o perdão divino podem levar à redenção, independentemente do pecado cometido",
+                  "points": {
+                    "sonserina": 3,
+                    "lufalufa": 1
+                  }
+                },
+                {
+                  "text": "Acredito que o conceito de pecado é relativo e a redenção pode ser alcançada através de boas ações e contribuições para a sociedade",
+                  "points": {
+                    "corvinal": 3,
+                    "sonserina": 2
+                  }
+                }
+              ]
+            },
+            {
+              "question": "Como você interpreta o papel da religião na sociedade?",
+              "options": [
+                {
+                  "text": "Acredito que a religião deve ter um papel central na governança e na estrutura social, guiando as leis e normas",
+                  "points": {
+                    "sonserina": 3,
+                    "lufalufa": 1
+                  }
+                },
+                {
+                  "text": "Penso que a religião deve coexistir com outras esferas da sociedade, contribuindo para o bem-estar coletivo sem impor suas crenças",
+                  "points": {
+                    "corvinal": 3,
+                    "sonserina": 1,
+                    "lufalufa":1
+                  }
+                },
+                {
+                  "text": "Valorizo a religião como uma fonte de consolo e orientação pessoal, mas não deve interferir nas políticas públicas",
+                  "points": {
+                    "grifinoria": 3,
+                    "lufalufa": 1
+                  }
+                },
+                {
+                  "text": "Acredito que a religião é uma questão pessoal e não deve ter influência nas decisões sociais ou políticas",
+                  "points": {
+                    "lufalufa": 3,
+                    "grifinoria": 2,
+                    "corvinal": 1
+                  }
+                }
+              ]
+            },
+            {
+              "question": "Qual é a sua visão sobre a moralidade e ética baseadas em ensinamentos religiosos?",
+              "options": [
+                {
+                  "text": "Acredito que a moralidade deve ser estritamente baseada nos ensinamentos religiosos, seguindo padrões divinamente estabelecidos",
+                  "points": {
+                    "sonserina": 3
+                  }
+                },
+                {
+                  "text": "Penso que a moralidade deve ser interpretada à luz dos ensinamentos religiosos, mas também considerando o contexto social e cultural",
+                  "points": {
+                    "corvinal": 3,
+                    "sonserina": 1
+                  }
+                },
+                {
+                  "text": "Valorizo a moralidade religiosa como um guia, mas acredito que a ética deve ser uma escolha pessoal fundamentada no bem comum",
+                  "points": {
+                    "lufalufa": 3,
+                    "grifinoria": 1
+                  }
+                },
+                {
+                  "text": "Acredito que a moralidade é uma construção social e pessoal, evoluindo com o tempo e as experiências individuais",
+                  "points": {
+                    "grifinoria": 3,
+                    "lufalufa": 1
+                  }
+                }
+              ]
+            },
+
+                {
+                  "question": "Você descobre um antigo pergaminho mágico que concede ao seu portador poderes incríveis, mas somente ao custo de absorver a energia vital de criaturas mágicas. O que você faz?",
+                  "options": [
+                    {
+                      "text": "Decido usar o pergaminho para ganhar poder, justificando que é uma troca aceitável pelo bem maior que posso realizar",
+                      "points": {
+                        "sonserina": 3,
+                        "corvinal": 1
+                      }
+                    },
+                    {
+                      "text": "Recuso o uso do pergaminho e tento encontrar uma maneira de proteger as criaturas mágicas enquanto estudo seu poder para futuras pesquisas",
+                      "points": {
+                        "corvinal": 3,
+                        "lufalufa": 1
+                      }
+                    },
+                    {
+                      "text": "Uso o pergaminho, mas me dedico a buscar uma forma de repor a energia vital de forma ética, minimizando o impacto nas criaturas mágicas",
+                      "points": {
+                        "lufalufa": 3,
+                        "sonserina": 1
+                      }
+                    },
+                    {
+                      "text": "Escondo o pergaminho para evitar que caia em mãos erradas, sabendo que seu poder pode ser muito perigoso, mesmo que usado com boas intenções",
+                      "points": {
+                        "grifinoria": 3,
+                        "lufalufa": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "question": "Você descobre um segredo mágico que poderia beneficiar muito a humanidade, mas revelá-lo ameaçaria o equilíbrio mágico e a segurança das comunidades mágicas. Qual é a sua escolha?",
+                  "options": [
+                    {
+                      "text": "Decido revelar o segredo para o mundo, acreditando que o progresso deve ser compartilhado, mesmo que isso cause desconforto temporário",
+                      "points": {
+                        "sonserina": 3,
+                        "lufalufa": 2
+                      }
+                    },
+                    {
+                      "text": "Opto por manter o segredo protegido, buscando formas responsáveis de usar esse conhecimento para ajudar sem comprometer a segurança",
+                      "points": {
+                        "corvinal": 3,
+                        "sonserina": 2
+                      }
+                    },
+                    {
+                      "text": "Compartilho o segredo apenas com uma elite de bruxos responsáveis, acreditando que eles podem usar o conhecimento com sabedoria e discernimento",
+                      "points": {
+                        "lufalufa": 3,
+                        "grifinoria": 2
+                      }
+                    },
+                    {
+                      "text": "Decido não interferir, acreditando que o mundo mágico tem suas próprias leis e equilíbrios que devem ser respeitados, mesmo que isso signifique não agir",
+                      "points": {
+                        "grifinoria": 3,
+                        "corvinal": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "question": "Você é confrontado por um amigo próximo que cometeu um erro grave e pede sua ajuda para cobrir sua transgressão. Qual é sua text?",
+                  "options": [
+                    {
+                      "text": "Ajudo o amigo a encobrir o erro, acreditando que a lealdade é mais importante do que a verdade em certos casos",
+                      "points": {
+                        "sonserina": 3,
+                        "lufalufa": 2
+                        
+                      }
+                    },
+                    {
+                      "text": "Recuso-me a ajudar a encobrir o erro, mas ofereço apoio emocional e incentivo para que o amigo assuma a responsabilidade por suas ações",
+                      "points": {
+                        "grifinoria": 3,
+                        "lufalufa": 1,
+                        "corvinal": 1
+                      }
+                    },
+                    {
+                      "text": "Aconselho o amigo a confessar seu erro e enfrentar as consequências, acreditando que a honestidade é sempre o melhor caminho",
+                      "points": {
+                        "corvinal": 3,
+                        "lufalufa": 1
+                      }
+                    },
+                    {
+                      "text": "Decido ajudar o amigo a encobrir o erro, mas apenas temporariamente, enquanto trabalhamos juntos para encontrar uma solução adequada a longo prazo",
+                      "points": {
+                        "lufalufa": 3,
+                        "sonserina": 2,
+                        "grifinoria": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "question": "Você se depara com uma situação em que um feitiço poderoso deve ser lançado para salvar muitas vidas, mas esse feitiço exigiria um sacrifício significativo de uma criatura mágica. O que você faz?",
+                  "options": [
+                    {
+                      "text": "Lanço o feitiço sem hesitação, acreditando que o sacrifício de uma criatura mágica é justificável para salvar muitas vidas",
+                      "points": {
+                        "sonserina": 3,
+                        "grifinoria": 1
+                      }
+                    },
+                    {
+                      "text": "Pesquiso alternativas, procurando encontrar uma maneira de salvar vidas sem causar dano às criaturas mágicas, priorizando a preservação da vida",
+                      "points": {
+                        "corvinal": 3,
+                        "sonserina": 2
+                      }
+                    },
+                    {
+                      "text": "Tentaria negociar com a criatura mágica, pedindo seu consentimento voluntário para o sacrifício, respeitando sua vontade e autonomia, se possível",
+                      "points": {
+                        "lufalufa": 3
+                      }
+                    },
+                    {
+                      "text": "Recuso-me a realizar o feitiço, acreditando que a vida de qualquer criatura, mágica ou não, não deve ser sacrificada, mesmo em prol de salvar muitas vidas",
+                      "points": {
+                        "grifinoria": 3,
+                        "lufalufa": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "question": "Você se depara com uma decisão difícil em uma batalha, onde salvar um amigo significa sacrificar uma chance vital para vencer o confronto. Como você decide agir?",
+                  "options": [
+                    {
+                      "text": "Opto por salvar meu amigo, priorizando os laços pessoais e a lealdade, mesmo que isso signifique perder uma oportunidade estratégica importante",
+                      "points": {
+                        "grifinoria": 3
+                      }
+                    },
+                    {
+                      "text": "Faço um apelo ao grupo, explicando a situação e permitindo que todos expressem sua opinião antes de tomar uma decisão coletiva",
+                      "points": {
+                        "lufalufa": 3
+                      }
+                    },
+                    {
+                      "text": "Decido seguir a estratégia original, acreditando que vencer a batalha é crucial para a segurança de todos, incluindo meu amigo, no longo prazo",
+                      "points": {
+                        "sonserina": 3
+                      }
+                    },
+                    {
+                      "text": "Adoto uma abordagem equilibrada, buscando uma solução que permita salvar meu amigo sem sacrificar completamente a vantagem estratégica, mesmo que isso exija mais esforço e criatividade",
+                      "points": {
+                        "corvinal": 3,
+                        "sonserina": 1
+                      }
+                    }
+                  ]
+                },
+
+                    {
+                      "question": "Você se encontra em uma aventura perigosa onde precisa escolher entre salvar um ente querido de um destino fatal ou proteger um artefato mágico vital para a segurança do mundo mágico. Qual é a sua decisão?",
+                      "options": [
+                        {
+                          "text": "Opto por salvar meu ente querido, priorizando o amor e os laços familiares, mesmo que isso signifique arriscar o futuro do mundo mágico",
+                          "points": {
+                            "grifinoria": 3,
+                            "lufalufa": 2
+                          }
+                        },
+                        {
+                          "text": "Decido proteger o artefato mágico, acreditando que a responsabilidade de manter a segurança do mundo mágico deve ser priorizada, mesmo que isso signifique perder alguém que amo profundamente",
+                          "points": {
+                            "sonserina": 3,
+                            "grifinoria": 2
+                          }
+                        },
+                        {
+                          "text": "Busco uma maneira de conciliar as duas situações, explorando opções alternativas e buscando aliados para ajudar a salvar meu ente querido enquanto também protejo o artefato",
+                          "points": {
+                            "corvinal": 3,
+                            "sonserina": 2
+                          }
+                        },
+                        {
+                          "text": "Recuso-me a fazer a escolha e busco uma terceira opção, mesmo que isso signifique enfrentar desafios ainda maiores, acreditando que sempre há uma solução que pode preservar tanto a pessoa amada quanto o artefato mágico",
+                          "points": {
+                            "lufalufa": 3,
+                            "corvinal": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "question": "Durante uma jornada para desvendar um mistério antigo, você descobre um segredo que pode causar grande sofrimento a várias pessoas, mas também revelar a verdade sobre um passado obscuro. Qual é a sua abordagem?",
+                      "options": [
+                        {
+                          "text": "Decido revelar o segredo, acreditando que a verdade, por mais dolorosa que seja, deve sempre ser conhecida para que todos possam enfrentar a realidade",
+                          "points": {
+                            "corvinal": 3
+                          }
+                        },
+                        {
+                          "text": "Mantenho o segredo oculto para evitar o sofrimento das pessoas, priorizando a estabilidade emocional delas, mesmo que isso signifique viver na ignorância",
+                          "points": {
+                            "lufalufa": 3
+                          }
+                        },
+                        {
+                          "text": "Avalio cuidadosamente as consequências de revelar o segredo e, se acreditar que a revelação pode levar a um bem maior a longo prazo, decido compartilhá-lo, mas com sensibilidade e apoio para aqueles afetados",
+                          "points": {
+                            "grifinoria": 3,
+                            "sonserina": 1
+                          }
+                        },
+                        {
+                          "text": "Utilizo o segredo como uma alavanca para negociar uma solução que minimize o sofrimento das pessoas envolvidas, buscando um equilíbrio delicado entre revelar a verdade e proteger os vulneráveis",
+                          "points": {
+                            "sonserina": 3,
+                            "grifinoria": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "question": "Você se depara com uma situação onde um antigo inimigo está em perigo iminente e você é a única pessoa que pode ajudá-lo. Qual é a sua text?",
+                      "options": [
+                        {
+                          "text": "Opto por ajudar meu inimigo, acreditando que todos merecem uma segunda chance e que, ao demonstrar compaixão, posso influenciá-lo positivamente",
+                          "points": {
+                            "lufalufa": 3
+                          }
+                        },
+                        {
+                          "text": "Ignoro o pedido de ajuda, mantendo minha distância e acreditando que a situação é resultado das escolhas dele, e não sinto responsabilidade por sua segurança",
+                          "points": {
+                            "sonserina": 3,
+                            "grifinoria": 1
+                          }
+                        },
+                        {
+                          "text": "Ajudo meu inimigo, mas com cautela e vigilância, estabelecendo limites claros e monitorando suas ações de perto para evitar qualquer traição",
+                          "points": {
+                            "grifinoria": 3,
+                            "sonserina": 1
+                          }
+                        },
+                        {
+                          "text": "Decido ajudar meu inimigo, acreditando que, mesmo nas pessoas mais sombrias, pode haver redenção, mas também me preparo para qualquer eventualidade, mantendo-me alerta",
+                          "points": {
+                            "corvinal": 3
+                          }
+                        }
+                      ]
+                    },
+
+    
+                        {
+                          "question": "Você é testemunha de um colega de classe sendo intimidado por um grupo. Você se junta aos agressores para evitar que eles virem seu alvo ou intervém para proteger seu colega?",
+                          "options": [
+                            {
+                              "text": "Opto por me juntar aos agressores para evitar ser alvo deles também, escolhendo a segurança pessoal em detrimento da integridade do meu colega",
+                              "points": {
+                                "sonserina": 3,
+                                "grifinoria": 1,
+                                "corvinal": 1
+                              }
+                            },
+                            {
+                              "text": "Intervenho e defendo meu colega, mesmo que isso signifique enfrentar os agressores e correr o risco de me tornar o próximo alvo, priorizando a coragem e a solidariedade",
+                              "points": {
+                                "grifinoria": 3,
+                                "lufalufa": 2
+                              }
+                            },
+                            {
+                              "text": "Decido não fazer nada, escolhendo me manter neutro na situação para evitar conflitos, mesmo sabendo que a inação permite que o bullying continue",
+                              "points": {
+                                "lufalufa": 3,
+                                "sonserina": 2
+                              }
+                            },
+                            {
+                              "text": "Intervenho de forma sutil, usando minha inteligência para desencorajar os agressores de maneira não confrontacional, buscando resolver a situação de forma astuta e eficaz",
+                              "points": {
+                                "corvinal": 3,
+                                "sonserina": 1
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "question": "Você recebe a tarefa de liderar um projeto em grupo na escola e, em vez de envolver todos os membros, você exclui deliberadamente um colega de classe por razões pessoais. Como você justifica suas ações?",
+                          "options": [
+                            {
+                              "text": "Justifico minhas ações alegando que o colega excluído não contribuiria positivamente para o projeto, priorizando o sucesso do projeto em detrimento dos sentimentos dele",
+                              "points": {
+                                "sonserina": 3,
+                                "corvinal": 2
+                              }
+                            },
+                            {
+                              "text": "Admito meu erro e incluo o colega de classe no projeto, reconhecendo a importância da diversidade de ideias e experiências para um trabalho bem-sucedido, priorizando a empatia e a inclusão",
+                              "points": {
+                                "lufalufa": 3,
+                                "corvinal": 1
+                              }
+                            },
+                            {
+                              "text": "Continuo excluindo o colega de classe, alegando que a decisão é necessária para manter a eficiência e evitar conflitos dentro do grupo, priorizando a harmonia do grupo em detrimento da justiça",
+                              "points": {
+                                "grifinoria": 3,
+                                "corvinal": 1,
+                                "sonserina": 1
+                              }
+                            },
+                            {
+                              "text": "Reflito sobre minhas ações e, em seguida, convido o colega de classe para se juntar ao projeto, buscando corrigir meu erro e aprender com a experiência, priorizando o crescimento pessoal e a responsabilidade",
+                              "points": {
+                                "corvinal": 3,
+                                "grifinoria": 1,
+                                "lufalufa": 1
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "question": "Quando adolescente, você estava envolvido em um grupo que praticava bullying contra um colega, mesmo que você pessoalmente não tenha sido o agressor principal. Agora, anos depois, você descobre que aquele colega ainda sofre as consequências psicológicas desse trauma. Como você lida com essa revelação?",
+                          "options": [
+                            {
+                              "text": "Sinto-me profundamente culpado por minha participação e me esforço para localizar o colega e pedir desculpas pessoalmente, oferecendo apoio e ajuda para lidar com as consequências do bullying",
+                              "points": {
+                                "lufalufa": 3,
+                                "corvinal": 2
+                              }
+                            },
+                            {
+                              "text": "Ignoro a situação e não faço nada para remediar o passado, acreditando que cada um deve lidar com seus próprios problemas",
+                              "points": {
+                                "sonserina": 3,
+                                "grifinoria": 2
+                              }
+                            },
+                            {
+                              "text": "Reconheço a gravidade de minhas ações passadas, mas não tomo medidas para remediar a situação, preferindo focar apenas no meu presente",
+                              "points": {
+                                "grifinoria": 3,
+                                "sonserina": 2
+                              }
+                            },
+                            {
+                              "text": "Utilizo esse arrependimento como motivação para me tornar uma pessoa mais empática e ativa na prevenção do bullying, trabalhando para conscientizar os outros e garantir que isso não aconteça novamente",
+                              "points": {
+                                "corvinal": 3,
+                                "lufalufa": 2
+                              }
+                            }
+                          ]
+                        },
+
+                            {
+                              "question": "Você se encontra em uma situação em que precisa criar uma poção complexa para salvar a vida de um amigo. Você tem acesso a ingredientes limitados e um tempo apertado. Como você lida com essa situação?",
+                              "options": [
+                                {
+                                  "text": "Utilizo meu vasto conhecimento em poções para improvisar, combinando ingredientes disponíveis de maneira criativa e precisa, garantindo que a poção funcione conforme o necessário",
+                                  "points": {
+                                    "corvinal": 3,
+                                    "sonserina": 1
+                                  }
+                                },
+                                {
+                                  "text": "Recorro a magias alternativas para tentar resolver o problema, optando por um método mágico inovador e arriscado para salvar meu amigo, confiando na minha habilidade em improvisar",
+                                  "points": {
+                                    "sonserina": 3,
+                                    "grifinoria": 2,
+                                    "corvinal": 1
+                                  }
+                                },
+                                {
+                                  "text": "Decido buscar ajuda de outros especialistas em poções ou magia para lidar com a situação, reconhecendo minhas limitações e buscando colaboração para encontrar uma solução eficaz",
+                                  "points": {
+                                    "lufalufa": 3
+                                  }
+                                },
+                                {
+                                  "text": "Aceito a complexidade do desafio, mas escolho abordá-lo com calma e paciência, seguindo cuidadosamente as instruções para criar a poção, confiando na precisão e no método tradicional para alcançar o resultado desejado",
+                                  "points": {
+                                    "grifinoria": 3,
+                                    "lufalufa": 1
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "question": "Você descobre que um colega bruxo está abusando de suas habilidades mágicas para ganho pessoal, prejudicando outros bruxos e trouxas no processo. Como você resolve essa situação?",
+                              "options": [
+                                {
+                                  "text": "Confronto o colega diretamente, usando minha persuasão e conhecimento para convencê-lo a parar, explicando as consequências éticas e morais de suas ações",
+                                  "points": {
+                                    "grifinoria": 3
+                                  }
+                                },
+                                {
+                                  "text": "Planejo uma estratégia astuta para expor as atividades do colega, reunindo evidências e divulgando a verdade para a comunidade mágica, garantindo que a justiça seja feita",
+                                  "points": {
+                                    "corvinal": 3,
+                                    "grifinoria": 1
+                                  }
+                                },
+                                {
+                                  "text": "Opto por uma abordagem mais cuidadosa e compassiva, tentando entender as razões por trás do comportamento do colega antes de ajudá-lo a encontrar um caminho melhor, oferecendo apoio e orientação",
+                                  "points": {
+                                    "lufalufa": 3,
+                                    "corvinal": 1
+                                  }
+                                },
+                                {
+                                  "text": "Decido intervir diretamente, usando minha magia para impedir o colega de continuar suas ações prejudiciais, garantindo que ele não cause mais danos enquanto busco uma solução permanente",
+                                  "points": {
+                                    "sonserina": 3,
+                                    "grifinoria": 1
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "question": "Você se encontra em uma situação em que precisa proteger um objeto mágico extremamente valioso de ser roubado por bruxos das trevas. Como você decide proteger o objeto?",
+                              "options": [
+                                {
+                                  "text": "Utilizo uma série complexa de encantamentos protetores, combinando magias de proteção física e ilusões para confundir e dissuadir possíveis ladrões, criando uma barreira mágica impenetrável",
+                                  "points": {
+                                    "corvinal": 3,
+                                    "sonserina": 2
+                                  }
+                                },
+                                {
+                                  "text": "Opto por um método mais engenhoso, criando um quebra-cabeça mágico que apenas alguém verdadeiramente digno e inteligente poderá resolver, garantindo que apenas os merecedores possam acessar o objeto",
+                                  "points": {
+                                    "grifinoria": 3,
+                                    "sonserina": 1,
+                                    "corvinal": 1
+                                  }
+                                },
+                                {
+                                  "text": "Decido confiar na força da comunidade mágica, convocando um grupo de bruxos e bruxas confiáveis para montar uma guarda constante ao redor do objeto, protegendo-o com sua presença vigilante",
+                                  "points": {
+                                    "lufalufa": 3,
+                                    "grifinoria": 1
+                                  }
+                                },
+                                {
+                                  "text": "Escolho um método mais ofensivo, colocando armadilhas mágicas e encantamentos de repelimento ao redor do objeto, garantindo que qualquer intruso seja enfrentado com obstáculos poderosos e perigosos",
+                                  "points": {
+                                    "sonserina": 3,
+                                    "grifinoria": 2,
+                                    "corvinal": 1
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "question": "Você é designado para negociar um acordo delicado entre duas espécies mágicas antigas que têm uma longa história de desconfiança e hostilidade. Como você aborda essa negociação para garantir um resultado pacífico?",
+                              "options": [
+                                {
+                                  "text": "Pesquiso profundamente sobre as tradições e valores de ambas as espécies, mostrando respeito e compreensão por suas culturas, criando uma atmosfera de confiança e colaboração",
+                                  "points": {
+                                    "corvinal": 3
+                                  }
+                                },
+                                {
+                                  "text": "Utilizo minha habilidade persuasiva para encontrar points de interesse comum entre as duas espécies, destacando os benefícios mútuos de um acordo pacífico, convencendo-os a cooperar para alcançar objetivos compartilhados",
+                                  "points": {
+                                    "grifinoria": 3,
+                                    "sonserina": 2
+                                  }
+                                },
+                                {
+                                  "text": "Opto por uma abordagem mais empática, ouvindo atentamente as preocupações e demandas de ambas as partes, trabalhando ativamente para resolver mal-entendidos e encontrar soluções que beneficiem a todos",
+                                  "points": {
+                                    "lufalufa": 3,
+                                    "grifinoria": 1
+                                  }
+                                },
+                                {
+                                  "text": "Escolho uma abordagem mais pragmática e firme, estabelecendo limites claros e impondo consequências severas para qualquer violação do acordo, demonstrando que a cooperação é a única opção viável",
+                                  "points": {
+                                    "sonserina": 3
+                                  }
+                                }
+                              ]
+                            },
+
+
+                                {
+                                  "question": "Severus Snape, em um ato de desespero, revela um segredo profundo e pessoal sobre sua vida que poderia prejudicá-lo seriamente se fosse exposto. Ele confia em você para manter essa informação em sigilo, mas ao mesmo tempo, você descobre que esse segredo está relacionado a ações prejudiciais que ele cometeu no passado. Como você lida com o dilema moral de manter sua palavra e proteger um segredo versus a responsabilidade de revelar a verdade e possivelmente buscar justiça para as vítimas de Snape?",
+                                  "options": [
+                                    {
+                                      "text": "Decido honrar a confiança de Snape e manter o segredo, acreditando que todos merecem uma chance de redenção, mesmo que isso signifique que ele não enfrente as consequências de suas ações passadas",
+                                      "points": {
+                                        "lufalufa": 3
+                                      }
+                                    },
+                                    {
+                                      "text": "Opto por confrontar Severus Snape sobre suas ações passadas, oferecendo-lhe uma oportunidade de se redimir e tomar medidas para reparar o dano causado, enquanto também me comprometo a ajudá-lo nesse processo",
+                                      "points": {
+                                        "grifinoria": 3
+                                      }
+                                    },
+                                    {
+                                      "text": "Escolho uma abordagem mais pragmática, usando a informação para negociar com Snape em troca de seu compromisso em corrigir seus erros, equilibrando a necessidade de justiça com a oportunidade de redenção",
+                                      "points": {
+                                        "sonserina": 3
+                                      }
+                                    },
+                                    {
+                                      "text": "Opto por buscar a verdade acima de tudo, revelando o segredo de Snape às autoridades competentes para que as vítimas de suas ações possam finalmente encontrar justiça, acreditando que a verdade deve prevalecer",
+                                      "points": {
+                                        "corvinal": 3,
+                                        "lufalufa": 1
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "question": "Albus Dumbledore, o respeitado diretor de Hogwarts, está enfrentando uma decisão ética complexa. Ele descobre que um estudante de Hogwarts está praticando magia negra proibida e representa uma ameaça potencial à segurança da escola e de seus colegas. No entanto, o estudante é filho de pais trouxas (não mágicos) e acredita-se que ele foi influenciado por influências externas sombrias. Como você acha que Dumbledore deve lidar com essa situação?",
+                                  "options": [
+                                    {
+                                      "text": "Dumbledore deve garantir que o estudante seja expulso de Hogwarts imediatamente, priorizando a segurança dos alunos e da escola, independentemente de sua origem trouxa, pois a segurança de todos está em primeiro lugar",
+                                      "points": {
+                                        "sonserina": 3,
+                                        "corvinal": 1
+                                      }
+                                    },
+                                    {
+                                      "text": "Dumbledore deve conduzir uma investigação completa e justa para entender as circunstâncias por trás das ações do estudante. Ele deve considerar as influências externas e os motivos do estudante antes de tomar qualquer decisão, focando na reabilitação e na educação ao invés da punição",
+                                      "points": {
+                                        "lufalufa": 3,
+                                        "grifinoria": 1
+                                      }
+                                    },
+                                    {
+                                      "text": "Dumbledore deve oferecer ajuda ao estudante, incluindo aconselhamento e orientação, na esperança de guiá-lo de volta ao caminho da magia responsável. Ele deve buscar soluções que permitam ao estudante redimir-se e aprender com seus erros",
+                                      "points": {
+                                        "grifinoria": 3,
+                                        "lufalufa": 2
+                                      }
+                                    },
+                                    {
+                                      "text": "Dumbledore deve buscar uma abordagem intermediária, considerando a expulsão do estudante apenas se ele continuar a praticar magia negra e representar uma ameaça iminente. Antes disso, Dumbledore deve oferecer ajuda e apoio ao estudante para evitar um destino tão severo",
+                                      "points": {
+                                        "corvinal": 3,
+                                        "sonserina": 1
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "question": "Você descobre que os Marotos, um grupo de estudantes notoriamente travessos de Hogwarts, estão planejando uma série de brincadeiras humilhantes contra Severus Snape. Você:",
+                                  "options": [
+                                    {
+                                      "text": "Fica do lado dos Marotos, acreditando que as brincadeiras são apenas parte da tradição escolar e que Snape deve aprender a lidar com isso",
+                                      "points": {
+                                        "sonserina": 3,
+                                        "grifinoria": 2
+                                      }
+                                    },
+                                    {
+                                      "text": "Tenta mediar a situação, convencendo tanto os Marotos quanto Snape a encontrarem uma maneira pacífica de resolver suas diferenças, acreditando que a paz e a cooperação são essenciais em Hogwarts",
+                                      "points": {
+                                        "lufalufa": 3
+                                      }
+                                    },
+                                    {
+                                      "text": "Fica do lado de Snape, achando que ele já foi alvo de brincadeiras demais e merece respeito, independentemente de suas diferenças pessoais com os Marotos",
+                                      "points": {
+                                        "corvinal": 3,
+                                        "lufalufa": 1
+                                      }
+                                    },
+                                    {
+                                      "text": "Decide não se envolver, preferindo manter uma posição neutra nesse conflito, acreditando que os alunos devem resolver suas próprias disputas sem interferência externa",
+                                      "points": {
+                                        "grifinoria": 3,
+                                        "corvinal": 2,
+                                        "sonserina": 1
+                                      }
+                                    }
+                                  ]
+                                },
+                        
+                                {
+                                  "question": "Você descobre que um dos seus amigos mais próximos da época dos Marotos está secretamente colaborando com os Comensais da Morte, fornecendo-lhes informações sobre a Ordem da Fênix e outros grupos de resistência. Você:",
+                                  "options": [
+                                    {
+                                      "text": "Decide se unir ao seu amigo, acreditando que ele deve ter razões válidas para suas ações e que, talvez, os Comensais da Morte estejam certos em suas crenças",
+                                      "points": {
+                                        "sonserina": 3
+                                      }
+                                    },
+                                    {
+                                      "text": "Confronta seu amigo, pedindo-lhe para reconsiderar suas escolhas e trilhar um caminho diferente, mostrando-lhe que a verdadeira amizade está em defender o bem e a justiça",
+                                      "points": {
+                                        "lufalufa": 3
+                                      }
+                                    },
+                                    {
+                                      "text": "Investigando discretamente as atividades de seu amigo, procurando entender as razões por trás de sua colaboração com os Comensais da Morte, enquanto também procura maneiras de resgatá-lo dessas influências sombrias",
+                                      "points": {
+                                        "corvinal": 3
+                                      }
+                                    },
+                                    {
+                                      "text": "Denuncia seu amigo às autoridades e à Ordem da Fênix, acreditando que a segurança da comunidade bruxa está acima de qualquer amizade, e que trair a confiança dos amigos não pode ser tolerado",
+                                      "points": {
+                                        "grifinoria": 3
+                                      }
+                                    }
+                                  ]
+                                },
+
+
+                                {
+                                    "question": "Qual é a sua visão sobre o papel do governo na sociedade e na economia?",
+                                    "options": [
+                                      {
+                                        "text": "Defendo a completa ausência de intervenção estatal na economia e na vida das pessoas, permitindo total liberdade individual e controle de propriedade privada.",
+                                        "points": {
+                                          "grifinoria": 3,
+                                          "lufalufa": 3,
+                                          "corvinal": 2,
+                                          "sonserina": 1
+                                        }
+                                      },
+                                      {
+                                        "text": "Apoio um governo mínimo que proteja os direitos individuais e a propriedade, permitindo certas regulamentações para evitar abusos de poder.",
+                                        "points": {
+                                          "grifinoria": 2,
+                                          "lufalufa": 3,
+                                          "corvinal": 1,
+                                          "sonserina": 1
+                                        }
+                                      },
+                                      {
+                                        "text": "Prefiro um sistema onde o governo intervém para garantir igualdade social e oportunidades, enquanto ainda permite um mercado livre para promover a inovação e o crescimento econômico.",
+                                        "points": {
+                                          "grifinoria": 1,
+                                          "lufalufa": 3,
+                                          "corvinal": 2,
+                                          "sonserina": 1
+                                        }
+                                      },
+                                      {
+                                        "text": "Acredito em um governo autoritário e centralizado, que controle todos os aspectos da sociedade e da economia, priorizando a unidade nacional e a ordem social acima de tudo.",
+                                        "points": {
+                                          "grifinoria": 1,
+                                          "lufalufa": 1,
+                                          "corvinal": 1,
+                                          "sonserina": 3
+                                        }
+                                      }
+                                    ]
+                                  }
+     ]
+                              
+                      
+
+
+              
+
+          
+      

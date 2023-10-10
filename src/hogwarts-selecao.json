@@ -1,0 +1,32 @@
+{
+    "casas": {
+        "grifinoria": {
+            "5": "Hummm, difícil, muito difícil...",
+            "10": "Hummm, acho que estou te entendendo melhor... Aaah sim, entendo, entendo...",
+            "20": "Humm, coragem... Você tem uma sede de se provar. Onde devo te colocar?",
+            "28": "Você possui uma coragem inabalável e um coração que anseia por aventuras!",
+            "35": "Você é verdadeiramente destemido, com certeza seu nome será de destaque na história!"
+        },
+        "sonserina": {
+            "5": "Hummm, difícil, muito difícil...",
+            "10": "Hummm, acho que estou te entendendo melhor... Aaah sim, entendo, entendo...",
+            "20": "Você possui uma ambição notável. Certo talento também. Onde devo te colocar?",
+            "28": "Sua astúcia e determinação são dignas de grandes homens que já passaram por aqui.",
+            "35": "Você tem um potencial tremendo. Ambição e inteligência em abundância! Grandes feitos você terá"
+        },
+        "corvinal": {
+            "5": "Hummm, difícil, muito difícil...",
+            "10": "Hummm, acho que estou te entendendo melhor... Aaah sim, entendo, entendo...",
+            "20": "Sua inteligência e criatividade são admiráveis. Sonserina...Talvez, talvez. Onde devo te colocar?",
+            "28": "Vejo que você valoriza muito sua inteligência e conhecimento.",
+            "35": "Você possui sabedoria e discernimento notáveis como muitos grandes sábios que já passaram por aqui"
+        },
+        "lufalufa": {
+            "5": "Hummm, difícil, muito difícil...",
+            "10": "Hummm, acho que estou te entendendo melhor... Aaah sim, entendo, entendo...",
+            "20": "Você possui um grande coração e paciência. Grandes virtudes. Onde devo te colocar?",
+            "28": "Sua lealdade e gentileza são características fundamentais de quem você é.",
+            "35": "Sua gentileza e compaixão são incomparáveis! Seu nome brilhará entre os grandes, eu vejo."
+        }
+    }
+}

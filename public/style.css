@@ -1,3 +1,5 @@
+ @import url('https://fonts.cdnfonts.com/css/wizard-world');            
+
 /* Reset CSS */
 * {
     margin: 0;
@@ -8,21 +10,218 @@
 
 body {
     font-family: 'Cinzel', Arial, serif;
-    background-color: #305b60; /* Cor de fundo do corpo do site */
-    color: #f0f0f0; /* Cor do texto */
+    background-color: #262722;
+    color: #a2a3a4;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
     margin: 0;
 }
 
-#nav-container {
-    height: 50px; /* Altura da barra de navegação */
-    width: 100%; /* Largura da barra de navegação */
-    background-color: #1e363f; /* Cor de fundo da barra de navegação */
+#menu-container {
+    background-color: #1e363f; /* Cor de fundo da caixa do menu */
+    padding: 20px; /* Espaçamento interno da caixa do menu */
+    border-radius: 10px; /* Borda arredondada para a caixa do menu */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Preenche toda a largura da tela */
+    position: fixed; /* Fixa o menu no topo da página */
+    top: 0; /* Alinha o menu no topo da página */
+    z-index: 1000; /* Garante que o menu esteja acima de outros elementos na página */
+    padding-top: 30px; /* Ajuste o valor conforme necessário para criar espaço para o #menu-container */
+    padding-bottom: 30px;
 }
+
+#wizard-world {
+    text-align: center;
+    flex: 1;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-item {
+    margin: 0 15px;
+}
+
+.login,
+.register {
+    color: #a2a3a4;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+
+#menu-container .login a,
+#menu-container .register a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+#menu-container .burger-menu {
+    margin-right: 20px;
+}
+
+.burger-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    padding: 2px;
+    transition: 0.4s;
+    border: 2px solid transparent; /* Borda transparente */
+    border-radius: 4px; /* Borda arredonda */
+}
+
+.burger-menu:hover .burger-icon {
+    border-color: #b08a3d; /* Cor da borda quando o mouse está sobre o ícone */
+}
+
+.bar {
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    transition: 0.4s;
+    border-radius: 2px;
+}
+
+.burger-menu {
+    position: relative;
+    margin-right: 20px; /* Adicione a margem desejada entre o ícone e o menu-lateral-container */
+}
+
+.menu-lateral-container {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(30, 54, 63, 0.5); /* Cor de fundo semitransparente */
+    transition: left 0.3s ease;
+    z-index: 3;
+    padding: 70px;
+}
+
+
+.menu-lateral-container.menu-ativo {
+    left: 0;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Altera a direção para vertical */
+}
+
+.menu-lateral li {
+    margin: 10px 0;
+}
+
+.menu-lateral a {
+    text-decoration: none;
+    color: #a2a3a4;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-lateral a:hover {
+    color: #b08a3d;
+}
+
+/* Estilos para o campo de pesquisa */
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    border: 2px solid transparent; /* Adiciona uma borda inicialmente transparente */
+    border-radius: 25px; /* Borda arredondada para criar um efeito de círculo */
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0); /* Box shadow inicialmente transparente */
+}
+
+.search-input {
+    border: none;
+    background: transparent;
+    width: 0;
+    outline: none;
+    font-size: 16px;
+    transition: width 0.5s ease-in-out;
+    padding: 10px; /* Adicione padding para afastar o texto do ícone */
+    transition: width 0.5s ease-in-out;
+    margin-right: 10px; /* Adicione margem à direita para afastar o ícone */
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 25px; /* Aumenta o tamanho do ícone */
+    color: #3498db; /* cor do ícone */
+    margin-left: 10px; /* Adicione margem à esquerda para afastar o ícone */
+    transition: color 0.3s ease; /* Transição de cor para o ícone */
+}
+
+.search-box.expanded {
+    width: 200px; /* Largura expandida do campo de pesquisa */
+    border: 2px solid #3498db; /* Cor da borda quando expandido */
+    box-shadow: 0 0 10px rgba(52, 152, 219, 1); /* Box shadow com brilho */
+}
+
+.search-box.expanded .search-input {
+    width: calc(100% - 30px); /* Ajuste o valor conforme necessário para acomodar o ícone */
+}
+
+.search-box.expanded .search-button {
+    color: #fff; /* Altera a cor do ícone quando expandido */
+    margin-right: 10px; /* Adicione margem à direita para afastar o ícone */
+}
+
+.search-input::placeholder {
+    color: #ffffff39;
+    text-shadow: 5px 5px 5px #0c0d0f; /* Ajuste a cor do brilho e o raio do desfoque conforme necessário */
+    text-align: center;
+    padding: 50px 0;
+}
+
+/** Search botão animação **/
+
+.search-button i {
+    font-size: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+    transition: all 0.3s ease-in-out; /* Adiciona uma transição suave a todas as propriedades */
+}
+
+.search-button:hover i {
+    transform: scale(2.2); /* Aumenta o tamanho do ícone em 10% ao passar o mouse sobre ele */
+    animation: beat 1s infinite; /* Adiciona a animação "beat" ao ícone */
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/** Container das perguntas **/
 
 #pergunta-container, .opcoes-resposta, #pergunta-texto, .proximo-btn {
     font-family: 'Cinzel', Arial, serif;
@@ -31,9 +230,8 @@ body {
 #chapeu-seletor-container {
     width: 350px;
     height: 350px;
-    position: absolute; /* Alterado para posição absoluta */
-    left: -10px; /* Posiciona o contêiner horizontalmente no centro */
-    top: -180px; /* Posiciona o contêiner verticalmente no centro */
+    left: 50px; /* Posiciona o contêiner horizontalmente no centro */
+    top: -200px; /* Posiciona o contêiner verticalmente no centro */
     transform: translate(-50%, -50%); /* Corrige o centro do contêiner */
     z-index: 1; /* Coloca o contêiner sobre outros elementos na página */
 }
@@ -48,30 +246,37 @@ body {
 
 .balao-fala {
     position: absolute;
-    background-color: #ffffff;
+    background-color: transparent;
     border-radius: 10px;
-    padding: 10px;
-    font-size: 14px;
-    display: none;
+    padding: 10px 20px; /* Adicione espaço interno */
+    font-size: 24px;
+    line-height: 1.5; /* Adicione espaço entre as linhas de texto */
+    font-family: 'Cinzel', serif;
+    max-width: 1000px;
+    min-width: 500px; /* Defina a largura mínima conforme necessário */
+    z-index: 2;
+    bottom: 10px; /* Ajuste a posição vertical conforme necessário */
+    right: 10px; /* Ajuste a posição horizontal conforme necessário */
+    white-space: normal; /* Permite que o texto pule linhas conforme necessário */
 }
 
 
 #pergunta-container {
-    background-color: #1e363f; /* Cor de fundo do container das perguntas */
+    background-color: #172123; /* Cor de fundo do container das perguntas */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 200px 40px 20px 40px; /* Adicione padding-top de 100px para criar espaço acima do texto das perguntas */
+    padding: 50px 20px 20px 20px; /* Adicione padding-top de 100px para criar espaço acima do texto das perguntas */
     text-align: center;
-    max-width: 800px; /* Largura máxima ajustada para 800px */
+    max-width: 600px; /* Largura máxima ajustada para 800px */
     width: 100%;
-    margin-top: 30%;
+    margin-top: 10%;
     margin-bottom: 20px;
     position: relative; /* Adicione uma posição relativa para o container das perguntas */
     z-index: 2; /* Coloque o container das perguntas acima do chapéu seletor */
 }
 
 #pergunta-texto {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -79,7 +284,7 @@ body {
     background-color: #699fa2; /* Cor de fundo dos botões de opção */
     border: none;
     border-radius: 5px;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     font-size: 16px;
     margin-bottom: 10px;
@@ -90,18 +295,18 @@ body {
 
 
 .opcao-btn.selected {
-    background-color: #172123; /* Cor de fundo dos botões de opção quando selecionados */
+    background-color: #213033; /* Cor de fundo dos botões de opção quando selecionados */
 }
 
 .opcao-btn:hover {
-    background-color: #0c0d0f; /* Cor de fundo dos botões de opção ao passar o mouse */
+    background-color: #1f363f; /* Cor de fundo dos botões de opção ao passar o mouse */
 }
 
 #proximo-btn {
-    background-color: #699fa2;
+    background-color: #182d31;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;
@@ -110,7 +315,7 @@ body {
 }
 
 #proximo-btn:hover {
-    background-color: #0e4861;
+    background-color: #1f363f;
 }
 
 #footer {
@@ -123,6 +328,35 @@ body {
     width: 100%;
     height: 100px; /* Altura do footer */
 }
+
+/** Pergaminho **/
+
+.pergaminho  {
+    background: url('/public/images/parchment.jpg') repeat;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 5px solid #a2a3a4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/** Efeito fumaça **/
+
+
+
 
 /* Estilos para telas grandes (até 1200px) */
 @media (max-width: 1200px) {

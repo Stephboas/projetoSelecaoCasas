@@ -1,39 +1,126 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultado da Casa Grifinória</title>
-    <link rel="stylesheet" href="./casas.css">
-    <!-- Seu CSS personalizado para a página de resultado -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Você foi selecionado para a Casa Grifinória!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/wizard-world" rel="stylesheet">
+    <link rel="stylesheet" href="grifinoria.css"> <!-- Certifique-se de ter um arquivo CSS para a Casa Grifinória -->
 </head>
-<body>
+
+<body class="grifinoria">
+    <!-- Incluindo o menu -->
+    <div id="menu"></div>
+
     <div class="container">
-        <h1>Resultado do Teste de Hogwarts</h1>
-        <h2>Você foi selecionado para a Casa Grifinória!</h2>
-        <p>Parabéns! Sua coragem, lealdade e determinação o tornaram digno de pertencer à Casa Grifinória. Sua habilidade para enfrentar desafios com valentia e sua disposição para proteger os outros são características notáveis que fazem de você um verdadeiro grifinório.</p>
 
-        <h3>[Música da Grifinória]</h3>
-        <p>[Inclua aqui um trecho da música da Grifinória ou um link para a música que representa o espírito da casa.]</p>
+        <header class="header">
+            <div class="logo">
+                <img src="images/gryffindor-house.png" alt="Brasão da Grifinória">
+                <h1 class="section-title">Você foi selecionado para a Casa Grifinória!</h1>
+            </div>
+        </header>
 
-        <h3>[Descrição da Casa]</h3>
-        <p>A Grifinória é conhecida por sua coragem, lealdade e determinação. Os membros desta casa valorizam a bravura, a disposição para ajudar os outros e a capacidade de enfrentar o perigo de frente. Na Grifinória, você encontrará um ambiente acolhedor e amigável, onde a coragem é celebrada e a amizade é valorizada.</p>
+        <main>
+            <section class="main-content">
+                <section class="content-section">
+                    <h2 class="section-title">Lema da Casa</h2>
+                    <p>Na Grifinória, a coragem, bravura e nobreza são altamente valorizadas. Os grifinórios são conhecidos por enfrentar desafios com valentia e defender aquilo em que acreditam.</p>
 
-        <h3>[Informações Extras]</h3>
-        <p>Os grifinórios da Casa Grifinória são conhecidos por sua valentia e pela forte determinação em fazer o que é certo. Eles são líderes naturais, corajosos e estão sempre dispostos a lutar por justiça e igualdade. Além disso, a Casa Grifinória tem uma longa tradição de produzir aurores excepcionais, bruxos e bruxas habilidosos na arte da defesa mágica.</p>
+                    <h2 class="section-title">Descrição da Casa</h2>
+                    <p class="text-body">A Grifinória é conhecida por sua coragem, lealdade e determinação. Os membros desta casa valorizam a bravura, a disposição para ajudar os outros e a capacidade de enfrentar o perigo de frente. Na Grifinória, você encontrará um ambiente acolhedor e amigável, onde a coragem é celebrada e a amizade é valorizada.</p>
 
-        <div class="founder-info">
-            <h3>Fundador: Godric Gryffindor (Grifinória)</h3>
-            <p>Godric Gryffindor, fundador da Casa Grifinória, era conhecido por sua bravura lendária e sua habilidade inigualável em duelos de magia. Ele acreditava que a coragem e a determinação eram as maiores virtudes de um bruxo, e essas crenças fundamentaram a Casa Grifinória. Gryffindor era um defensor incansável da justiça e da igualdade, e ele selecionava seus alunos com base em sua valentia e senso de dever. Seu lema era "Coragem, nobreza e bravura acima de tudo", e ele valorizava a honra e a integridade acima de tudo.</p>
+                    <h2 class="section-title">Informações Extras</h2>
+                    <p class="text-body">Os grifinórios da Casa Grifinória são conhecidos por sua valentia e pela forte determinação em fazer o que é certo. Eles são líderes naturais, corajosos e estão sempre dispostos a lutar por justiça e igualdade. Além disso, a Casa Grifinória tem uma longa tradição de produzir aurores excepcionais, bruxos e bruxas habilidosos na arte da defesa mágica.</p>
 
-            <h3>Personagens Relevantes da Casa Grifinória</h3>
-            <ul>
-                <li><strong>Harry Potter:</strong> O famoso bruxo que derrotou Lord Voldemort. Harry é conhecido por sua coragem inabalável e por sempre estar disposto a ajudar os outros, características típicas da Grifinória.</li>
-                <li><strong>Hermione Granger:</strong> Uma brilhante bruxa conhecida por sua inteligência e dedicação aos estudos. Hermione é uma grifinória que valoriza o conhecimento e a justiça.</li>
-                <li><strong>Sirius Black:</strong> Um bruxo valente e leal, membro da Ordem da Fênix. Sirius é conhecido por sua coragem e por lutar contra as forças das trevas para proteger o mundo mágico.</li>
-                <li><strong>Albus Dumbledore:</strong> O respeitado diretor de Hogwarts e líder da Ordem da Fênix. Dumbledore é um exemplo de sabedoria, coragem e compaixão, sendo um dos maiores bruxos de todos os tempos.</li>
-            </ul>
+                    <h2 class="section-title">Fundador: Godric Gryffindor (Grifinória)</h2>
+                    <div class="fundador-section">
+                        <div class="fundador-content">
+                            <img src="images/godric-gryffindor.webp" alt="Godric Gryffindor">
+                        </div>
+                        <p class="text-body">Godric Gryffindor, fundador da Casa Grifinória, era conhecido por sua bravura lendária e sua habilidade inigualável em duelos de magia. Ele acreditava que a coragem e a determinação eram as maiores virtudes de um bruxo, e essas crenças fundamentaram a Casa Grifinória. Gryffindor era um defensor incansável da justiça e da igualdade, e ele selecionava seus alunos com base em sua valentia e senso de dever. Seu lema era "Coragem, nobreza e bravura acima de tudo", e ele valorizava a honra e a integridade acima de tudo.</p>
+                    </div>
+
+                    <h2 class="section-title">Personagens Relevantes da Casa Grifinória</h2>
+
+                    <ul class="personagens-list">
+                        <li>
+                            <div class="personagem">
+                                <img src="images/harry-potter.jpg" alt="Harry Potter">
+                                <div class="tooltip">
+                                    <div class="hint-radius"></div>
+                                    <div class="hint-content">
+                                        <h3 class="section-title">Harry Potter</h3>
+                                        <p class="tip-text">O famoso bruxo que derrotou Lord Voldemort. Harry é conhecido por sua coragem inabalável e por sempre estar disposto a ajudar os outros, características típicas da Grifinória.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="personagem">
+                                <img src="images/hermione-granger.jpg" alt="Hermione Granger">
+                                <div class="tooltip">
+                                    <div class="hint-radius"></div>
+                                    <div class="hint-content">
+                                        <h3 class="section-title">Hermione Granger</h3>
+                                        <p class="tip-text">Uma brilhante bruxa conhecida por sua inteligência e dedicação aos estudos. Hermione é uma grifinória que valoriza o conhecimento e a justiça.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="personagem">
+                                <img src="images/sirius-black.jpg" alt="Sirius Black">
+                                <div class="tooltip">
+                                    <div class="hint-radius"></div>
+                                    <div class="hint-content">
+                                        <h3 class="section-title">Sirius Black</h3>
+                                        <p class="tip-text">Um bruxo valente e leal, membro da Ordem da Fênix. Sirius é conhecido por sua coragem e por lutar contra as forças das trevas para proteger o mundo mágico.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="personagem">
+                                <img src="images/albus-dumbledore.jpg" alt="Albus Dumbledore">
+                                <div class="tooltip">
+                                    <div class="hint-radius"></div>
+                                    <div class="hint-content">
+                                        <h3 class="section-title">Albus Dumbledore</h3>
+                                        <p class="tip-text">O respeitado diretor de Hogwarts e líder da Ordem da Fênix. Dumbledore é um exemplo de sabedoria, coragem e compaixão, sendo um dos maiores bruxos de todos os tempos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </section>
+            </section>
+        </main>
+
+        <div class="galaxy">
+            <div class="stars"></div>
         </div>
+
+        <footer>
+            <nav>
+                <p>Rodapé da Página</p>
+            </nav>
+        </footer>
+
     </div>
+
+    <script>
+        // Faz uma requisição para o servidor para obter o conteúdo do menu e adiciona-o ao elemento com id 'menu'
+        $(document).ready(function () {
+            $.get('/menu', function (data) {
+                $('#menu').html(data);
+            });
+        });
+    </script>
 </body>
+
 </html>

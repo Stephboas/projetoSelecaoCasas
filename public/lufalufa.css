@@ -1,0 +1,334 @@
+/* Estilos para a Casa Corvinal */
+@import url('https://fonts.cdnfonts.com/css/wizard-world');            
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFFFFF; /* Cor do texto principal */
+    font-family: 'Cinzel', 'Arial', sans-serif;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.container {
+    margin: 0 auto; /* Margem automática nas laterais para centralizar o conteúdo */
+    max-width: 900px; /* Define a largura máxima do contêiner para evitar que ele fique muito largo */
+    padding: 0 20px; /* Espaçamento interno para o conteúdo dentro do contêiner */
+}
+
+header {
+    width: 100%; /* Faz com que a header ocupe 100% da largura do contêiner */
+    max-width: 800px; /* Define uma largura máxima para a header */
+    margin: 0 auto; /* Centraliza a header dentro do contêiner */
+}
+
+.logo img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.main-content {
+    padding: 50px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto semi-transparente para melhorar visibilidade do texto */
+    margin-bottom: 80px; /* Adicionando margem ao rodapé */
+    text-align: left; /* Alinha o texto à esquerda dentro da .main-content */
+
+}
+
+.section-title {
+    font-family: 'Wizard World', Arial, sans-serif;
+    font-size: 2em; /* Tamanho dos títulos */
+    color: #FFE156; /* Cor dos títulos (azul claro) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra de texto para destacar títulos */
+    margin-bottom: 10px; /* Espaçamento abaixo dos títulos */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para títulos */
+    padding: 10px; /* Espaçamento interno dos títulos */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Sombra de texto para títulos */
+}
+
+.content-section {
+    margin-bottom: 20px; /* Espaçamento abaixo de cada seção de conteúdo */
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para textos */
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Sombra para destacar textos do fundo */
+    margin-bottom: 20px; /* Espaçamento abaixo dos parágrafos */
+}
+
+.tip-text {
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin-bottom: 15px; /* Adicione uma margem na parte inferior dos textos */
+}
+
+.section-title, p {
+    text-align: center; /* Alinhamento ao centro */
+    margin: 10px 0; /* Espaçamento ao redor do texto */
+}
+
+
+/* Estilo para a seção Fundador */
+.fundador-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.fundador-content {
+    position: relative;
+    width: 280px;
+    height: 420px;
+    margin: 0 auto; /* Centraliza a div horizontalmente */
+    margin-top: 20px; /* Adiciona espaçamento acima da div para centralizar em relação ao texto acima */
+    margin-bottom: 30px; /* Adiciona espaçamento abaixo da div para centralizar em relação ao texto abaixo */
+    overflow: hidden;
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, filter 0.5s ease;
+    border-radius: 15px; /* Adiciona bordas arredondadas aos quadrados */
+}
+
+.fundador-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fundador-content:hover {
+    transform: scale(1.1);
+    filter: brightness(0.7);
+}
+
+.fundador-section p {
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+
+/* Estilo dos Personagens Relevantes */
+
+.personagens-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+.personagem {
+    position: relative;
+    width: 280px;
+    height: 420px;
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, margin 0.3s ease; /* Adiciona transição para a largura e altura */
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px; /* Adiciona bordas arredondadas aos quadrados */
+
+}
+
+.personagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.5s ease;
+}
+
+.personagem .tooltip {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.609);
+    color: #fff;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1;
+    max-width: 100%; /* Garante que o tooltip não ultrapasse a largura da caixa da imagem */
+    max-height: 100%; /* Garante que o tooltip não ultrapasse a altura da caixa da imagem */
+    overflow: auto; /* Adiciona um scroll interno para o conteúdo longo do tooltip */
+    text-align: center; /* Centraliza o texto dentro do tooltip */
+    box-sizing: border-box; /* Garante que padding e bordas não aumentem o tamanho total do tooltip */
+}
+
+.personagem:hover .tooltip {
+    width: 100%; /* Faz o tooltip ocupar 100% da largura da imagem */
+    height: 100%; /* Faz o tooltip ocupar 100% da altura da imagem */
+    padding: 40px; /* Aumenta o padding interno quando a imagem é expandida */
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease, width 0.3s ease, height 0.3s ease, padding 0.3s ease; /* Adiciona transição para largura, altura e padding */
+}
+
+.personagem .hint-content {
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-align: justify;
+    max-width: 300px; /* Ajuste a largura máxima conforme necessário */
+    
+}
+
+
+.personagem:hover .hint-content {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    text-align: center; /* Centraliza o texto dentro da caixa do tooltip */
+}
+
+.personagem .hint-content h3 {
+    margin-top: 0;
+    font-size: 1.5em; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.personagem .hint-content .tip-text {
+    font-size: 1em; /* Tamanho do texto */
+}
+
+.personagem:hover {
+    transform: scale(1.2); /* Aumenta a escala da imagem ao passar o mouse sobre ela */
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5); /* Efeito de sombra ao redor da imagem */
+    margin: 30px; /* Afasta as outras imagens */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, margin 0.3s ease, width 0.3s ease, height 0.3s ease; /* Adiciona transição para a largura e altura */
+}
+
+.personagem:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.7);
+    transition: transform 0.3s ease, filter 0.5s ease;
+}
+
+.personagens-list:hover .personagem:not(:hover) {
+    margin: 20px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Barra de Rolagem * / 
+
+/* Para navegadores WebKit (Chrome, Safari, etc.) */
+.personagem .tooltip::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+.personagem .tooltip::-webkit-scrollbar-thumb {
+    background-color: #ece039; /* Cor do polegar da barra de rolagem */
+    border-radius: 5px; /* Borda arredondada do polegar da barra de rolagem */
+}
+
+/* Para navegadores Firefox */
+.personagem .tooltip::-moz-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+.personagem .tooltip::-moz-scrollbar-thumb {
+    background-color: #ece039; /* Cor do polegar da barra de rolagem */
+    border-radius: 5px; /* Borda arredondada do polegar da barra de rolagem */
+}
+
+
+/* Galáxia */
+
+.galaxy {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('images/yellow-galaxy.jpg') no-repeat center center/cover;
+    animation: moveGalaxy 50s linear infinite;
+    overflow: hidden;
+}
+
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('images/stars.png') repeat top left;
+    animation: blinkStars 5s linear infinite;
+}
+
+@keyframes moveGalaxy {
+    0% {
+        transform: scale(1);
+        background-size: 100% 100%;
+    }
+    50% {
+        transform: scale(1.1);
+        background-size: 110% 110%;
+    }
+    100% {
+        transform: scale(1);
+        background-size: 100% 100%;
+    }
+}
+
+@keyframes blinkStars {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #00205b2d;
+    padding: 10px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer ul li a:hover {
+    color: #FFFFFF;
+}

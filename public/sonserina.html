@@ -3,34 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultado da Casa Sonserina</title>
-    <link rel="stylesheet" href="./casas.css">
-    <!-- Seu CSS personalizado para a página de resultado -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Você foi selecionado para a Casa Sonserina!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/wizard-world" rel="stylesheet">
+    <link rel="stylesheet" href="sonserina.css">
 </head>
-<body>
+<body class="sonserina">
+    <!-- Incluindo o menu -->
+    <div id="menu"></div>
+    
     <div class="container">
-        <h1>Você foi selecionado para a Casa Sonserina!</h1>
-        <p>Parabéns! Sua astúcia, ambição e determinação o tornaram digno de pertencer à Casa Sonserina. Sua habilidade para encontrar soluções criativas para os problemas e sua determinação implacável são características notáveis que fazem de você um verdadeiro sonserino.</p>
 
-        <h2>Música da Sonserina</h2>
-        <p>Inclua aqui um trecho da música da Sonserina ou um link para a música que representa o espírito da casa.</p>
+    <header class="header">
+        <div class="logo">
+            <img src="images/slytherin-house.png" alt="Brasão da Sonserina">
+            <h1 class="section-title">Você foi selecionado para a Casa Sonserina!</h1>
+        </div>
+    </header>
 
-        <h2>Descrição da Casa</h2>
-        <p>A Sonserina é conhecida por sua astúcia, ambição e determinação. Os membros desta casa valorizam a inteligência, a autoconfiança e a determinação para atingir seus objetivos. Na Sonserina, você encontrará um ambiente desafiador e estimulante, onde a ambição é celebrada e a inteligência é valorizada.</p>
+    <main>
+        <section class="main-content">
+            <section class="content-section">
+                <h2 class="section-title">Lema da Casa</h2>
+                <p>Em Sonserina, existem apenas aqueles de mente verdadeiramente astuta. Dignidade, astúcia e determinação em um lugar de auto-seleção.</p>
 
-        <h2>Informações Extras</h2>
-        <p>Os sonserinos da Casa Sonserina são conhecidos por sua habilidade em encontrar soluções criativas e por sua ambição inabalável. Eles são estrategistas natos, sempre prontos para usar sua astúcia para alcançar seus objetivos. Além disso, a Casa Sonserina tem uma forte tradição de produzir bruxos e bruxas habilidosos em poções, ocultismo e magia das trevas.</p>
+                <h2 class="section-title">Descrição da Casa</h2>
+                <p class="text-body">A Sonserina é conhecida por sua astúcia, ambição e determinação. Os membros desta casa valorizam a inteligência, a autoconfiança e a determinação para atingir seus objetivos. Na Sonserina, você encontrará um ambiente desafiador e estimulante, onde a ambição é celebrada e a inteligência é valorizada.</p>
 
-        <h2>Fundador: Salazar Slytherin (Sonserina)</h2>
-        <p>Salazar Slytherin, o fundador da Casa Sonserina, era conhecido por sua astúcia lendária e sua habilidade em falar Parseltongue, a língua das serpentes. Ele acreditava que a ambição e a inteligência eram as maiores virtudes de um bruxo, e essas crenças fundamentaram a Casa Sonserina. Slytherin valorizava a pureza do sangue e selecionava seus alunos com base em sua linhagem mágica. Seu lema era "Astúcia e ambição acima de tudo", e ele valorizava a autoconfiança e a determinação acima de tudo.</p>
+                <h2 class="section-title">Informações Extras</h2>
+                <p class="text-body">Os sonserinos da Casa Sonserina são conhecidos por sua habilidade em encontrar soluções criativas e por sua ambição inabalável. Eles são estrategistas natos, sempre prontos para usar sua astúcia para alcançar seus objetivos. Além disso, a Casa Sonserina tem uma forte tradição de produzir bruxos e bruxas habilidosos em poções, ocultismo e magia das trevas.</p>
 
-        <h2>Personagens Relevantes da Casa Sonserina</h2>
-        <ul>
-            <li>Severus Snape: Um bruxo habilidoso e mestre de poções, conhecido por sua astúcia e lealdade à Sonserina.</li>
-            <li>Draco Malfoy: Um estudante influente e ambicioso de Hogwarts, conhecido por sua determinação em alcançar seus objetivos.</li>
-            <li>Bellatrix Lestrange: Uma bruxa poderosa e leal aos ideais da Sonserina, conhecida por sua coragem e fidelidade.</li>
-            <li>Merlin: Um bruxo lendário e poderoso, considerado um dos maiores bruxos de todos os tempos, conhecido por sua inteligência e habilidade em magia.</li>
-        </ul>
+                <h2 class="section-title">Fundador: Salazar Slytherin (Sonserina)</h2>
+                <div class="fundador-section">
+                    <div class="fundador-content">
+                        <img src="images/salazar.webp" alt="Salazar Slytherin">
+                    </div>
+                    <p class="text-body">Salazar Slytherin, o fundador da Casa Sonserina, era conhecido por sua astúcia lendária e sua habilidade em falar Parseltongue, a língua das serpentes. Ele acreditava que a ambição e a inteligência eram as maiores virtudes de um bruxo, e essas crenças fundamentaram a Casa Sonserina. Slytherin valorizava a pureza do sangue e selecionava seus alunos com base em sua linhagem mágica. Seu lema era "Astúcia e ambição acima de tudo", e ele valorizava a autoconfiança e a determinação acima de tudo.</p>
+                </div>
+
+                <h2 class="section-title">Personagens Relevantes da Casa Sonserina</h2>
+                <ul class="personagens-list">
+                    <li>
+                        <div class="personagem">
+                            <img src="images/severus-snape.jpg" alt="Severus Snape">
+                            <div class="tooltip">
+                                <div class="hint-radius"></div>
+                                <div class="hint-content">
+                                    <h3 class="section-title">Severus Snape</h3>
+                                    <p class="tip-text">Um bruxo habilidoso e mestre de poções, conhecido por sua astúcia e lealdade à Sonserina.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="personagem">
+                            <img src="images/draco-malfoy.jpg" alt="Draco Malfoy">
+                            <div class="tooltip">
+                                <div class="hint-radius"></div>
+                                <div class="hint-content">
+                                    <h3 class="section-title">Draco Malfoy</h3>
+                                    <p class="tip-text">Um estudante influente e ambicioso de Hogwarts, conhecido por sua determinação em alcançar seus objetivos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="personagem">
+                            <img src="images/bellatrix-lestrange.webp" alt="Bellatrix Lestrange">
+                            <div class="tooltip">
+                                <div class="hint-radius"></div>
+                                <div class="hint-content">
+                                    <h3 class="section-title">Bellatrix Lestrange</h3>
+                                    <p class="tip-text">Uma bruxa poderosa e leal aos ideais da Sonserina, conhecida por sua coragem e fidelidade.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="personagem">
+                            <img src="images/merlin.webp" alt="Merlin">
+                            <div class="tooltip">
+                                <div class="hint-radius"></div>
+                                <div class="hint-content">
+                                    <h3 class="section-title">Merlin</h3>
+                                    <p class="tip-text">Um bruxo lendário e poderoso, considerado um dos maiores bruxos de todos os tempos, conhecido por sua inteligência e habilidade em magia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </section>
+        </section>
+    </main>
+
+    <div class="galaxy">
+        <div class="stars"></div>
     </div>
+
+    <footer>
+        <nav>
+            <p>Rodapé da Página</p>
+        </nav>
+    </footer>
+
+    </div>
+
+    <script>
+        // Faz uma requisição para o servidor para obter o conteúdo do menu e adiciona-o ao elemento com id 'menu'
+        $(document).ready(function () {
+            $.get('/menu', function (data) {
+                $('#menu').html(data);
+            });
+        });
+    </script>
 </body>
+
 </html>

@@ -2,7 +2,7 @@
   "name": "selecaocasas",
   "version": "1.0.0",
   "description": "Teste de Selecao Casas de Hogwarts",
-  "main": "index.html",
+  "main": "",
   "type": "module",
   "homepage": "https://stephboas.github.io/selecaoCasas/",
   "scripts": {

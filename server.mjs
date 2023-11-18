@@ -23,12 +23,6 @@ app.get('/src/questions.json', (req, res) => {
   res.sendFile(join(__dirname, 'src', 'questions.json'));
 });
 
-// Configurar rota para o arquivo JSON de hogwarts-selecao.json
-app.get('/src/hogwarts-selecao.json', (req, res) => {
-  res.setHeader('Content-Type', 'application/json');
-  res.sendFile(join(__dirname, 'src', 'hogwarts-selecao.json'));
-});
-
 // Configurar rota para o arquivo CSS
 app.get('/menu.css', (req, res) => {
   res.setHeader('Content-Type', 'text/css'); // Definir o tipo MIME como CSS

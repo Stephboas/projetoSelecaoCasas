@@ -1,6 +1,6 @@
-# MagicWorld House Selection
+# Hogwarts House Selection
 
-Bem-vindo ao MagicWorld House Selection! Este projeto é uma aplicação web que permite aos usuários fazer um quiz mágico e serem selecionados para uma das quatro casas de Hogwarts do universo de Harry Potter.
+Bem-vindo ao Hogwarts House Selection! Este projeto é uma aplicação web que permite aos usuários fazer um quiz mágico e serem selecionados para uma das quatro casas de Hogwarts do universo de Harry Potter.
 
 ## Estrutura do Projeto
 

@@ -4,7 +4,7 @@
   "description": "Teste de Selecao Casas de Hogwarts",
   "main": "",
   "type": "module",
-  "homepage": "https://stephboas.github.io/selecaoCasas/",
+  "homepage": "https://stephboas.github.io/projetoSelecaoCasas/",
   "scripts": {
     "start": "node server.mjs",
     "build": "webpack",
@@ -17,6 +17,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "gh-pages": "^X.X.X"
+    "gh-pages": "^6.0.0"
   }
 }

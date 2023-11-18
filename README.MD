@@ -30,15 +30,20 @@ O projeto está organizado da seguinte forma:
    ```bash
    git clone https://github.com/your-username/MagicWorld.git
 
+2. Navegue até o diretório do projeto:
 
-# Navegue até o diretório do projeto
-cd MagicWorld/selecaoCasas
+   ```bash
+   cd MagicWorld/selecaoCasas
 
-# Instale as dependências
-npm install
+3. Instale as dependências:
 
-# Inicie a aplicação
-npm start
+   ```bash
+   npm install
+
+4. Inicie a aplicação:
+
+   ```bash
+   npm start
 
 Abra seu navegador e vá para http://localhost:3000 para acessar a aplicação.
 

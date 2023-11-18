@@ -2,19 +2,21 @@
   "name": "selecaocasas",
   "version": "1.0.0",
   "description": "Teste de Selecao Casas de Hogwarts",
-  "main": "project-structure.js",
+  "main": "index.html",
   "type": "module",
+  "homepage": "https://stephboas.github.io/selecaoCasas/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.mjs",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d public"
   },
   "author": "Steph Boas",
   "license": "ISC",
   "devDependencies": {
+    "esm": "^3.2.25",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "esm": "^3.2.25"
+    "gh-pages": "^X.X.X"
   }
 }

@@ -30,20 +30,22 @@ O projeto está organizado da seguinte forma:
    ```bash
    git clone https://github.com/your-username/MagicWorld.git
 
+
+# Navegue até o diretório do projeto
 cd MagicWorld/selecaoCasas
+
+# Instale as dependências
 npm install
 
+# Inicie a aplicação
 npm start
 
 Abra seu navegador e vá para http://localhost:3000 para acessar a aplicação.
 
-
-Dependências
-Webpack: Usado para agrupar e gerenciar ativos do projeto.
-Babel: Compilador JavaScript para garantir compatibilidade em diferentes ambientes.
-jQuery: Usado para manipulação simplificada do DOM.
-Desafios
-Durante o desenvolvimento deste projeto, o foco principal foi na funcionalidade, com ênfase em implementar tudo em JavaScript puro. O design não foi a prioridade, mas sim proporcionar uma experiência interativa e mágica aos usuários.
+Dependências:
+- Webpack: Usado para agrupar e gerenciar ativos do projeto.
+- Babel: Compilador JavaScript para garantir compatibilidade em diferentes ambientes.
+- jQuery: Usado para manipulação simplificada do DOM.
 
 Sinta-se à vontade para explorar o código e vivenciar a magia do processo de seleção das casas de Hogwarts!
 

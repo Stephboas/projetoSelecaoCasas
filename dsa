@@ -1,0 +1,14 @@
+[33m1f874bb[m[33m ([m[1;36mHEAD -> [m[1;32mgh-pages[m[33m)[m HEAD@{0}: commit: Configurar GitHub Pages
+[33mcd1bc0f[m HEAD@{1}: commit: Configurar GitHub Pages
+[33m8057c0d[m HEAD@{2}: checkout: moving from selecaoCasas to gh-pages
+[33m8057c0d[m HEAD@{3}: checkout: moving from gh-pages to selecaoCasas
+[33m8057c0d[m HEAD@{4}: checkout: moving from selecaoCasas to gh-pages
+[33m8057c0d[m HEAD@{5}: pull origin selecaoCasas: Merge made by the 'ort' strategy.
+[33m8e02ab2[m HEAD@{6}: commit: Atualizando githubPages
+[33m0cbe313[m HEAD@{7}: commit: Atualizando readme
+[33mfdca2d2[m HEAD@{8}: commit: Atualizando readme
+[33mb398c2c[m HEAD@{9}: commit: Atualizando readme
+[33m0997a08[m[33m ([m[1;32mmain[m[33m)[m HEAD@{10}: Branch: renamed refs/heads/nomedabranch to refs/heads/selecaoCasas
+[33m0997a08[m[33m ([m[1;32mmain[m[33m)[m HEAD@{12}: checkout: moving from main to nomedabranch
+[33m0997a08[m[33m ([m[1;32mmain[m[33m)[m HEAD@{13}: commit: Primeiro commit
+[33m2e85e09[m HEAD@{14}: commit (initial): Tentando corrigir problema com JSON
